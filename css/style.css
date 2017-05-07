@@ -1,6 +1,18 @@
 /* CSS STYLES FOR GOOGLE HOMEPAGE */
 
-#test {
-  background-color: #FFFFFF;
-  margin: 30px;
+#header {
+  position: absolute;
+  right: 0px;
+  padding: 10px;
+}
+
+#header a {
+  margin: 10px;
+  font-size: 14px;
+  color: #5d5654;
+  text-decoration: none;
+}
+
+#header a:hover {
+  color: red;
 }
