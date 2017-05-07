@@ -16,3 +16,14 @@
 #header a:hover {
   color: red;
 }
+
+#banner {
+  position: absolute;
+  top: 220px;
+  left: 350px;
+}
+
+#banner img {
+  height: 100px;
+  width: 100%
+}
