@@ -68,3 +68,24 @@
   right: auto;
   width: 400px;
 }
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: auto;
+  top: auto;
+  width: 100%;
+}
+
+#left {
+  position: absolute;
+  padding: 15px;
+  left: 0px;
+}
+
+#right {
+  position: absolute;
+  padding: 15px;
+  right: 0px;
+}
