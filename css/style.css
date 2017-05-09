@@ -76,6 +76,9 @@
   left: auto;
   top: auto;
   width: 100%;
+  border-style: outset;
+  border-top: .5px;
+  border-color: black;
 }
 
 #left {
@@ -88,4 +91,14 @@
   position: absolute;
   padding: 15px;
   right: 0px;
+}
+
+#footer a{
+  text-decoration: none;
+  color: #5f5f5f
+}
+
+#footer a:hover {
+  text-decoration: underline;
+  color: black;
 }
