@@ -18,16 +18,25 @@
 }
 
 #wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
+  width: 95%;
+  min-width: 900px;
 }
 
 #banner {
   position: absolute;
   padding-top: 5px;
-  top: 20%;
+  top: 280px;
   left: 40%;
+  width: 300px;
+  min-width: 300px;
+  bottom: auto;
+  right: auto;
+}
+
+#banner input {
+  position: relative;
+  top: 15px;
+  left: -55px;
 }
 
 #banner img {
@@ -35,20 +44,12 @@
   width: 100%
 }
 
-#search {
-  position: absolute;
-  padding: 20px;
-  margin: 20px;
-  top: 32%;
-  left: 35%;
-}
 
 #searchBar {
   position: absolute;
-  left: 0px;
-  right: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
-  top: 42%;
-  width: 920%;
+  top: 400px;
+  left: 35%;
+  bottom: auto;
+  right: auto;
+  width: 400px;
 }
