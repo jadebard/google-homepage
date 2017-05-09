@@ -44,6 +44,21 @@
   width: 100%
 }
 
+#banner .button {
+  position: relative;
+  top: 40px;
+  left: 0px;
+  padding: 5px;
+  text-decoration: none;
+  background-color: #e7e7e7;
+  color: #5f5f5f;
+}
+
+#banner .button:hover {
+  border-color: black;
+  border: 1px;
+  color: black;
+}
 
 #searchBar {
   position: absolute;
